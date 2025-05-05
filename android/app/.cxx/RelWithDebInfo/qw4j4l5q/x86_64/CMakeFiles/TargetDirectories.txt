@@ -1,0 +1,2 @@
+D:/ProjectFiles/project/orange/android/app/.cxx/RelWithDebInfo/qw4j4l5q/x86_64/CMakeFiles/edit_cache.dir
+D:/ProjectFiles/project/orange/android/app/.cxx/RelWithDebInfo/qw4j4l5q/x86_64/CMakeFiles/rebuild_cache.dir

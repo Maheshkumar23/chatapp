@@ -1,0 +1,211 @@
+name: orange_ui
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.0 <3.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  #_______________ page_navigation & utils ___________________#
+  get: ^4.6.6
+
+  #_______________ mvvm structured ___________________#
+  stacked: ^3.4.3
+
+  #_______________ local storage ___________________#
+  shared_preferences: ^2.3.2
+
+  #_______________ map_integration ___________________#
+  google_maps_flutter: ^2.9.0
+  geolocator: ^13.0.1
+  geocode: ^1.0.3
+  flutter_cache_manager: ^3.4.1
+  google_maps_cluster_manager_2: ^3.2.0
+
+
+  #_______________ ui and animation___________________#
+  flutter_spinkit: ^5.2.1
+  shimmer: ^3.0.0
+  lottie: ^3.1.2
+  rxdart: ^0.28.0
+  custom_marker: ^1.0.0
+  flutter_swiper_null_safety: ^1.0.2
+  carousel_slider: ^5.0.0
+  wakelock_plus: ^1.2.8
+  dotted_border: ^2.1.0
+  detectable_text_field: ^3.0.2
+  smooth_page_indicator: ^1.2.0+3
+
+  #_______________ Networking ___________________#
+  http: ^1.2.2
+
+  #_______________ In App Purchase ___________________#
+  in_app_purchase: ^3.2.0
+
+  #_______________ firebase ___________________#
+  firebase_messaging: ^15.1.3
+  flutter_launcher_icons: ^0.14.2
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.2
+  flutter_local_notifications: ^17.2.2
+  flutter_app_badge: ^2.0.2
+  google_mobile_ads: ^5.1.0
+
+  #_______________ sign in  ___________________#
+  google_sign_in: ^6.2.1
+  sign_in_with_apple: ^6.1.3
+
+  #_______________ permission ___________________#
+  permission_handler: ^11.3.1
+
+  #_______________ url_launcher ___________________#
+  url_launcher: ^6.3.0
+
+  #____________________ date_format: _________________#
+  intl: ^0.19.0
+
+  #_______________ video and image_____________#
+  image_picker: ^1.1.2
+  video_player: ^2.9.1
+  video_thumbnail: ^0.5.3
+  cached_network_image: ^3.4.1
+  #ffmpeg_kit_flutter: ^6.0.3
+
+  #_____________live streaming_________________#
+  agora_rtc_engine: ^6.3.2
+
+  #_____________ webView _________________#
+  webview_flutter: ^4.9.0
+
+  #_____________ Share _________________#
+  share_plus: ^10.0.2
+  flutter_branch_sdk: ^8.2.0
+
+  #_____________ Camera _________________#
+  camera: ^0.11.0+2
+
+  bubbly_camera:
+    path: "CameraPlugin/camera"
+
+
+  collection: ^1.18.0
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo_image.png"
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/images/logo_image.png"
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^4.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  generate: true
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: gilroy
+      fonts:
+        - asset: assets/fonts/gilroy_reguler.ttf
+
+    - family: gilroy_bold
+      fonts:
+        - asset: assets/fonts/gilroy_bold.ttf
+
+    - family: gilroy_extra_bold
+      fonts:
+        - asset: assets/fonts/gilroy_extra_bold.otf
+
+    - family: gilroy_heavy
+      fonts:
+        - asset: assets/fonts/gilroy_heavy.ttf
+
+    - family: gilroy_light
+      fonts:
+        - asset: assets/fonts/gilroy_light.otf
+
+    - family: gilroy_medium
+      fonts:
+        - asset: assets/fonts/gilroy_medium.ttf
+
+    - family: gilroy_semibold
+      fonts:
+        - asset: assets/fonts/gilroy_semibold.ttf
+
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
+flutter_intl:
+  enabled: true
