@@ -20,7 +20,7 @@ class BlockedProfilesScreen extends StatelessWidget {
       builder: (context, viewModel, child) {
         return Scaffold(
           body: SafeArea(
-            top: true,
+            top: false,
             child: Column(
               children: [
                 TopBarArea(title2: S.of(context).blockedProfiles),
