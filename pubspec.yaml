@@ -89,7 +89,7 @@ dependencies:
   url_launcher: ^6.3.0
 
   #____________________ date_format: _________________#
-  intl: ^0.19.0
+  intl: ^0.20.2
 
   #_______________ video and image_____________#
   image_picker: ^1.1.2
